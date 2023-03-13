@@ -1,3 +1,6 @@
 [submodule "VocabVersus-Engine"]
 	path = VocabVersus-Engine
 	url = https://github.com/Thomas-Molen/VocabVersus-Engine
+[submodule "VocabVersus-Interface"]
+	path = VocabVersus-Interface
+	url = https://github.com/Thomas-Molen/VocabVersus-Interface
