@@ -8,16 +8,34 @@ Similar games based on creating/guessing words already exist such as [Scrabble](
 
 ## Roadmap
 - [ ] Dashboard / Landing page
+	- [ ] Game Creator
+	- [ ] Custom game rules 
+	- [ ] WordSet importer
 - [ ] Game Interface
+	- [x] Realtime game connectivity
+	- [x] Game instance joining
+	- [ ] Gameplay
+		- [ ] Pre start lobby
+		- [ ] Player management
+		- [ ] Session storing
+		- [ ] Match Session
+			- [ ] Letter showcase
+			- [ ] Input feedback
+			- [ ] Event feedback
 - [ ] Game Engine
-	- [ ] System for receiving game input and returning game information
-	- [ ] Player connection system handling player - game instance communication
+	- [x] Game instance initializer
+	- [x] System for receiving game input and returning game information
+	- [x] Player connection system handling player - game instance communication
+	- [ ] Persistent player sessions
+	- [ ] Word Aggregation connection
+	- [ ] Game instance password protection
+	- [ ] Match session handler
+		- [ ] Event handler 
 - [ ] Game data storage
 	- [ ] Word usage tracker
 - [ ] Word Aggregation
 	- [ ] Word validator, word - wordset finder
-- [ ] Account System
-	- [ ] Player authentication
+	- [ ] WordSet importing
 - [ ] Deployment pipeline
 
 ## Diagrams
