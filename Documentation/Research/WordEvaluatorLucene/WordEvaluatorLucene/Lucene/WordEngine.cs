@@ -39,7 +39,7 @@ namespace WordEvaluatorLucene.Lucene
             var document = new Document
                 {
                     new StringField("WordSetId", wordSetId.ToString(), Field.Store.YES),
-                    new TextField("Words", builder.ToString(), Field.Store.YES)
+                    new TextField("Words", builder.ToString(), Field.Store.NO)
                 };
             _writer.AddDocument(document);
             _writer.Commit();
@@ -66,9 +66,6 @@ namespace WordEvaluatorLucene.Lucene
             query.Add(WordQuery, Occur.MUST);
 
             // if a signle match was found, return true
-            var test = indexSearcher.Search(query, 1).ScoreDocs;
-            var document = indexSearcher.Doc(test[0].Doc);
-            var Guid = document.Fields.FirstOrDefault(f => f.Name == "WordSetId")?.GetStringValue();
             return indexSearcher.Search(query, 1).TotalHits > 0;
         }
     }
