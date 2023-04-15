@@ -4,3 +4,6 @@
 [submodule "VocabVersus-Interface"]
 	path = VocabVersus-Interface
 	url = https://github.com/Thomas-Molen/VocabVersus-Interface
+[submodule "VocabVersus-WordSet-Evaluator"]
+	path = VocabVersus-WordSet-Evaluator
+	url = https://github.com/Thomas-Molen/VocabVersus-WordSet-Evaluator.git
