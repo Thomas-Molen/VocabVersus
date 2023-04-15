@@ -1,9 +1,12 @@
 [submodule "VocabVersus-Engine"]
 	path = VocabVersus-Engine
 	url = https://github.com/Thomas-Molen/VocabVersus-Engine
+	branch = main
 [submodule "VocabVersus-Interface"]
 	path = VocabVersus-Interface
 	url = https://github.com/Thomas-Molen/VocabVersus-Interface
+	branch = main
 [submodule "VocabVersus-WordSet-Evaluator"]
 	path = VocabVersus-WordSet-Evaluator
 	url = https://github.com/Thomas-Molen/VocabVersus-WordSet-Evaluator.git
+	branch = main
