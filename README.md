@@ -33,9 +33,10 @@ Similar games based on creating/guessing words already exist such as [Scrabble](
 		- [ ] Event handler 
 - [ ] Game data storage
 	- [ ] Word usage tracker
-- [ ] Word Aggregation
-	- [ ] Word validator, word - wordset finder
-	- [ ] WordSet importing
+- [x] Word Aggregation
+	- [x] WordSet storage
+	- [x] WordSet info querying
+	- [x] Word finder/evaluator
 - [ ] Deployment pipeline
 
 ## Diagrams
