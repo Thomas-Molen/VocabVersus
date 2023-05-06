@@ -14,30 +14,33 @@ Similar games based on creating/guessing words already exist such as [Scrabble](
 - [ ] Game Interface
 	- [x] Realtime game connectivity
 	- [x] Game instance joining
-	- [ ] Gameplay
-		- [ ] Pre start lobby
-		- [ ] Player management
-		- [ ] Session storing
-		- [ ] Match Session
-			- [ ] Letter showcase
-			- [ ] Input feedback
-			- [ ] Event feedback
+	- [x] Gameplay
+		- [x] Pre start lobby
+		- [x] Player management
+		- [x] Session storing
+		- [x] Match Session
+			- [x] Letter showcase
+			- [x] Input feedback
+			- [x] Event feedback
+		- [ ] Player activated events
 - [ ] Game Engine
 	- [x] Game instance initializer
 	- [x] System for receiving game input and returning game information
 	- [x] Player connection system handling player - game instance communication
-	- [ ] Persistent player sessions
-	- [ ] Word Aggregation connection
+	- [x] Persistent player sessions
+	- [x] Word Aggregation connection
 	- [ ] Game instance password protection
-	- [ ] Match session handler
-		- [ ] Event handler 
+	- [x] Match session handler
+		- [x] Event handler 
 - [ ] Game data storage
 	- [ ] Word usage tracker
 - [x] Word Aggregation
 	- [x] WordSet storage
 	- [x] WordSet info querying
 	- [x] Word finder/evaluator
-- [ ] Deployment pipeline
+- [x] Deployment pipeline
+	- [x] Automated CI/CD
+	- [x] Cloud Deployment
 
 ## Diagrams
 <img src="Documentation/Assets/VocabVersus.drawio.png" alt="C4 architectural design diagram" width="500">
