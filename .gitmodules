@@ -7,3 +7,6 @@
 [submodule "vocabversus-wordset-evaluator"]
 	path = vocabversus-wordset-evaluator
 	url = https://github.com/Thomas-Molen/vocabversus-wordset-evaluator
+[submodule "vocabversus-dashboard"]
+	path = vocabversus-dashboard
+	url = https://github.com/Thomas-Molen/vocabversus-dashboard

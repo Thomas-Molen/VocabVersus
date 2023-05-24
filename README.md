@@ -7,9 +7,9 @@ Points will be given based on **player’s speed** and **complexity** of the wor
 Similar games based on creating/guessing words already exist such as [Scrabble](https://playscrabble.com/) or [Wordle](https://www.nytimes.com/games/wordle/index.html) and games such as [scribble.io](https://skribbl.io/) is similar in its functionality/behavior.
 
 ## Roadmap
-- [ ] Dashboard / Landing page
-	- [ ] Game Creator
-	- [ ] Custom game rules 
+- [x] Dashboard / Landing page
+	- [x] Game Creator
+	- [x] Customize game rules 
 	- [ ] WordSet importer
 - [ ] Game Interface
 	- [x] Realtime game connectivity
