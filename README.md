@@ -29,7 +29,7 @@ Similar games based on creating/guessing words already exist such as [Scrabble](
 	- [x] Player connection system handling player - game instance communication
 	- [x] Persistent player sessions
 	- [x] Word Aggregation connection
-	- [ ] Game instance password protection
+	- [x] Game instance password protection
 	- [x] Match session handler
 		- [x] Event handler 
 - [ ] Game data storage
